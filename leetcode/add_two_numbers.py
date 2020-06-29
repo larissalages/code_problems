@@ -54,13 +54,11 @@ def main():
 	l2 = n23
 
 	resultLList = Solution().addTwoNumbers(l1, l2) 
-	print("Result")
 	p = resultLList
-	print(p.val)
-	p = p.next
-	print(p.val)
-	p = p.next
-	print(p.val)
+	print("Result")
+	while p:	
+		print(p.val)
+		p = p.next
 
 if __name__ == "__main__":
 	main()
