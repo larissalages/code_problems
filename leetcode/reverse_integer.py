@@ -36,4 +36,26 @@ class Solution:
         reverse = int(str1.join(new_str))
         if reverse >= 2**31-1 or reverse <= -2**31: return 0
         return int(str1.join(new_str))
+ 
+ 
+# A still dumb solution            
+class Solution:
+    def reverse(self, x: int) -> int:
+        if x >= (2**31-1) or (x <= -2**31): return 0
+        if x == 0: return x
+        if x < 0:
+            mult = -1
+            x = x*(-1)
+        else:
+            mult = 1
+        
+        rev_num = []
+        num = x
+        while(num != 0 ):
+            rev_num.append(str(num % 10))
+            num = num // 10
+        
+        result = int("".join(rev_num))*mult
+        if result >= (2**31-1) or (result <= -2**31): return 0
+        else: return result
             
