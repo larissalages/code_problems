@@ -37,11 +37,12 @@ class Solution:
         if reverse >= 2**31-1 or reverse <= -2**31: return 0
         return int(str1.join(new_str))
  
- 
-# A still dumb solution            
+# Solution 2
+INT_MAX = 2**31-1
+INT_MIN = -2**31
 class Solution:
     def reverse(self, x: int) -> int:
-        if x >= (2**31-1) or (x <= -2**31): return 0
+        if x >= INT_MAX or x <= INT_MIN: return 0
         if x == 0: return x
         if x < 0:
             mult = -1
@@ -49,13 +50,14 @@ class Solution:
         else:
             mult = 1
         
-        rev_num = []
+        rev = 0
         num = x
         while(num != 0 ):
-            rev_num.append(str(num % 10))
+            dig = num % 10
             num = num // 10
-        
-        result = int("".join(rev_num))*mult
-        if result >= (2**31-1) or (result <= -2**31): return 0
-        else: return result
+            if rev > INT_MAX/10: 
+                return 0
+            else: 
+                rev = rev*10 + dig        
+        return rev*mult
             
