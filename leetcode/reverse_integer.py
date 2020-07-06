@@ -38,6 +38,8 @@ class Solution:
         return int(str1.join(new_str))
  
 # Solution 2
+# Time Complexity: O(log(x))
+# Space Complexity O(1)
 INT_MAX = 2**31-1
 INT_MIN = -2**31
 class Solution:
