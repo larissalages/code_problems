@@ -8,22 +8,23 @@
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        d_char_used = {}
-        count = 0
+        chars_used = []
         count_result = 0
         for c in s:
-            if c in d_char_used:
-                count = 0
-                d_char_used = {}
-            else:
-                count += 1
-                d_char_used[c] = 1
-            if count > count_result:
-                count_result = count
+            if c in chars_used:
+                index = chars_used.index(c)
+                if index+1==len(chars_used):
+                    chars_used = []
+                else:
+                    chars_used = chars_used[index+1:]             
+            chars_used.append(c)
+            size = len(chars_used)
+            if size > count_result:
+                count_result = size
         return count_result
 
 def main():
-    res = Solution().lengthOfLongestSubstring('bbbbb')
+    res = Solution().lengthOfLongestSubstring("aabaab!bb")
     print(res)
 
 if __name__ == "__main__":
