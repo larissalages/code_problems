@@ -45,12 +45,8 @@ def insert_balance_tree(sorted_list, tree):
 		tree.insert(sorted_list[mid])
 		insert_balance_tree(sorted_list[0:mid], tree)
 		insert_balance_tree(sorted_list[mid+1:len(sorted_list)], tree)
-	else: 
-		mid = sorted_list
-		tree.insert(mid)
-		return 
 
-class Solution:
+class Solution2:
 	def balanceBST(self, root: TreeNode) -> TreeNode:
 		list_tree = []
 		list_tree = tree2list(list_tree, root)
@@ -58,7 +54,29 @@ class Solution:
 		new_root.val = None
 		insert_balance_tree(list_tree, new_root)
 		return new_root
-		
+
+# Right Solution		
+class Solution:
+	def balanceBST(self, root: TreeNode) -> TreeNode:
+		v = []
+		def dfs(node):
+			if node:
+				dfs(node.left)
+				v.append(node.val)
+				dfs(node.right)
+		dfs(root)
+
+		def bst(v):
+			if not v:
+				return None
+			mid = len(v)//2
+			root = TreeNode(v[mid])
+			root.left = bst(v[:mid])
+			root.right = bst(v[mid+1:])
+			return root
+
+		return bst(v)
+
 
 
 			
