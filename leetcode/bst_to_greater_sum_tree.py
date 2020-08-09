@@ -13,11 +13,11 @@ class Solution:
 				sum_aux, _ = sum_tree(node.right, sum_aux)
 
 			sum_aux = sum_aux + node.val
+			node.val = sum_aux
 
 			if node.left:
 				sum_aux, _ = sum_tree(node.left, sum_aux)
 
-			node.val = sum_aux
 			return sum_aux, node
 
 		_, new_tree = sum_tree(root, 0)
