@@ -25,7 +25,7 @@ class Node:
 			self.left.printTree()
 		print(self.data)
 		if self.right:
-			self.right.printTree
+			self.right.printTree()
 
 
 def createMinTree(tree, list_num):
