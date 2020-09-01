@@ -1,4 +1,4 @@
-Repository made with the aim to help people study for coding interviews.
+Repository made with the aim to help people study for coding interviews. All code were made in Python. 
 
 # LeetCode
 ## Binary Search Trees
