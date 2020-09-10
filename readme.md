@@ -1,4 +1,8 @@
-Repository made with the aim to help people study for coding interviews. All code were made in Python. 
+Repository made with the aim to help people study for coding interviews. So far all code were made in Python. 
+
+Big O cheat sheet: https://www.bigocheatsheet.com/
+
+Contributions are welcome!
 
 # LeetCode
 ## Binary Search Trees
