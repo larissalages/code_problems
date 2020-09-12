@@ -7,14 +7,14 @@ class Quicksort:
     def _sort(self, data):
         if len(data) < 2:
             return data
-        equal, left, right = []
+        equal, left, right = [], [], []
         piv_index = len(data)//2
         piv_value = data[piv_index]
 
         for n in data:
             if n == piv_value:
                 equal.append(n)
-            if n < piv_value:
+            elif n < piv_value:
                 left.append(n)
             else:
                 right.append(n)
