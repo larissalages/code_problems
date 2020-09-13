@@ -1,9 +1,12 @@
-Repository made with the aim to help people study for coding interviews. So far all code were made in Python. 
+Repository made with the aim to help people study for coding interviews. All code were made in Python. 
 
 Big O cheat sheet: https://www.bigocheatsheet.com/
 
 Contributions are welcome!
-
+# Classic Algorithms
+Code | Test
+------------ | -------------
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/tests/test_quick_sort.py)
 # LeetCode
 ## Binary Search Trees
 Challenge | Solution
