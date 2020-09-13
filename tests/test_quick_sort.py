@@ -23,7 +23,7 @@ class TestQuickSort(unittest.TestCase):
 
 
 def main():
-    test = TestQuickSort.test_quick_sort()
+    TestQuickSort.test_quick_sort()
 
 
 if __name__ == '__main__':
