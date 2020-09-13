@@ -29,3 +29,12 @@ Challenge | Solution
 ## Others
 Challenge | Solution
 ------------ | -------------
+
+# Hackerrank 
+Challenge | Solution
+------------ | -------------
+[Non Primes Generator](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/non-primes_generator.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/non-primes-generator.py)
+[Stock Market prediction](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/stock_market_prediction.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/stock_market_prediction.py)
+[Square Accumulate Root](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/square_acc_root.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/square_accumulate_root.py)
+[Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_r=internal-search) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/sock_merchant.py)
+
