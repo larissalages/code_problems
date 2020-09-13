@@ -7,6 +7,7 @@ Contributions are welcome!
 Code | Test
 ------------ | -------------
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/tests/test_quick_sort.py)
+[Merge Sorte](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/tests/test_merge_sort.py)
 # LeetCode
 ## Binary Search Trees
 Challenge | Solution
