@@ -2,7 +2,8 @@ Repository made with the aim to help people studing for coding interviews. All c
 
 Big O cheat sheet: https://www.bigocheatsheet.com/
 
-Contributions are welcome!
+Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.md](https://github.com/larissalages/code_problems/blob/master/CONTRIBUTING.md) for details on how to get started and submit pull requests to us.
+
 # Classic Algorithms
 Code | Test
 ------------ | -------------
