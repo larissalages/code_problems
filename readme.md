@@ -1,8 +1,14 @@
 Repository made with the aim to help people studing for coding interviews. All code were made in Python so far but anyone can add new problems, algorithms and data structures in any language :smile:
 
-Big O cheat sheet: https://www.bigocheatsheet.com/
-
 Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.md](https://github.com/larissalages/code_problems/blob/master/CONTRIBUTING.md) for details on how to get started and submit pull requests to us.
+
+# Usefull Links
+- [Big O cheat sheet](https://www.bigocheatsheet.com/)
+- [LeetCode](https://leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/dashboard)
+- [Code Chef](https://www.codechef.com/)
+- [Data Structure and Algorithms Tutorial](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)
+
 
 # Classic Algorithms
 Code | Test
