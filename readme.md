@@ -1,4 +1,4 @@
-Repository made with the aim to help people study for coding interviews. All code were made in Python. 
+Repository made with the aim to help people studing for coding interviews. All code were made in Python so far but anyone can add new problems, algorithms and data structures in any language :smile:
 
 Big O cheat sheet: https://www.bigocheatsheet.com/
 
