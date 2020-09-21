@@ -36,13 +36,13 @@ int partition(int a[],int start,int end)
 int main()
 {
 int n;
-  int a[n] = {0};
   cout<<"enter the size of the array = ";
   cin>>n;
+  int a[n] = {0};
   cout<<"enter all the array element to sort them = ";
    for(int i=0;i<n;i++)
    {
-       scanf("%d",&a[i]);
+       cin>>a[i];
    }
 
   quick_sort(a,0,n-1);
