@@ -58,6 +58,4 @@ public class Node<T extends Comparable> {
             return;
         }
     }
-    root = Node(Integer(12));
-
 }
