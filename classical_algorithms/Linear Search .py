@@ -11,7 +11,7 @@ result = linear(arr,n,x)
 if (result == -1):
         print("Element not found")
 else:
-        print("Element found at" ,result+1,"position")
+        print("Element found at" ,result+1,"pos")
 
         
 
