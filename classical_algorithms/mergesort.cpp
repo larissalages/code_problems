@@ -1,62 +1,41 @@
-void merge(int a[], int l, int m, int r)
-{
-  int l1 = m - l + 1;
-  int l2 = r - m;
+void msort(int d[],int size){
 
-  int temp1[l1];
-  int temp2[l2];
+ int i,j,k, result[size], mid=size/2;
 
-  for (int i = 0; i < l1; i++)
-  {
-    temp1[i] = a[l + i];
-  }
-  for (int j = 0; j < l2; j++)
-  {
-    temp2[j] = a[m + j + 1];
-  }
-  int i = 0;
-  int j = 0;
-  int k = l;
+ if(size==1)
+ {
+     return;
+ }
 
-  while (i < l1 && j < l2)
-  {
-    if (temp1[i] < temp2[j])
-    {
-      a[k] = temp1[i];
-      i++;
-    }
 
-    else
-    {
-      a[k] = temp2[j];
-      j++;
-    }
+ msort(d,mid);
 
-    while (i < l1)
-    {
-      a[k] = temp1[i];
-      i++;
-      k++;
-    }
+ msort(&d[mid],size-mid);
 
-    while (j < l2)
-    {
-      a[k] = temp2[j];
-      j++;
-      k++;
-    }
-  }
+ for(k=0,i=0,j=mid; i<mid && j<size; k++)
+    result[k]=d[i]<d[j]?d[i++]:d[j++];
+
+ while(i<mid)
+    result[k++]=d[i++];
+ while(j<size)
+  result[k++]=d[j++];
+
+ for(k=0;k<size;k++)
+ {
+     d[k]=result[k];
+ }
+
 }
 
-void mergesort(int a[], int l, int r)
+
+int main()
 {
-  if (l < r)
-  {
-    int m = r + (l - r) / 2;
+    int arr[7] = {5,3,7,2,1,6,4};
+    msort(arr,7);
+    int i;
 
-    mergesort(a, l, m);
-    mergesort(a, m + 1, r);
-
-    merge(a, l, m, r);
-  }
+	for( i = 0 ; i<7 ; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+    return 0;
 }
