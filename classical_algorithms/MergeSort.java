@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.*;
 
 
 class MergeSort
@@ -73,21 +72,19 @@ class MergeSort
 
  	public static void main(String args[])
 	{
+		Scanner scan= new Scanner(System.in);
 		try{
-			int low,high,mid;
+			int low,high;
 			int n,i;
-
-			Scanner scan= new Scanner(System.in);
-	
 			System.out.println("How many elements do you want in the array?");
 			n=scan.nextInt();
 			int a[]= new int[n];
 			System.out.println("Enter the array elements one by one");
-			for(i=0;i<n;i++)
-			{
-				a[i]=scan.nextInt();		
-			}
 
+			for(i=0;i<n;i++)
+			{	
+				a[i]=scan.nextInt();	
+			}
 			System.out.println("Array before sorting is:");
 			printArray(a, n);
 			low=0;
@@ -101,7 +98,7 @@ class MergeSort
 			printArray(a, n);
 
 		}catch(Exception e){e.printStackTrace();}
-                   
+		scan.close();
 	}
 }
 
