@@ -1,5 +1,5 @@
 import unittest
-from classical_algorithms.mergesort import MergeSort
+from classical_algorithms.python.mergesort import MergeSort
 
 
 class TestMergeSort(unittest.TestCase):
@@ -17,7 +17,7 @@ class TestMergeSort(unittest.TestCase):
 
         print('Two or More Elements')
         array = [10, -1, 0, 100, 5, 15, -100, 7]
-        self.assertEquals(merge_sort.sort(array), sorted(array))
+        self.assertEqual(merge_sort.sort(array), sorted(array))
 
         print('Success: test_merge_sort\n')
 
