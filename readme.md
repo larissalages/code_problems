@@ -11,10 +11,26 @@ Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.
 
 
 # Classic Algorithms
+### Python
 Code | Test
 ------------ | -------------
-[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/tests/test_quick_sort.py)
-[Merge Sorte](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/tests/test_merge_sort.py)
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
+[Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | Missing tests
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/selection%20sort.py) | Missing tests
+[Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Binary%20search.py) | Missing tests
+
+### Java
+Code | Test
+------------ | -------------
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.java) | Missing tests
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java) | Missing tests
+
+### C++
+Code | Test
+------------ | -------------
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
+
 # LeetCode
 ## Binary Search Trees
 Challenge | Solution
