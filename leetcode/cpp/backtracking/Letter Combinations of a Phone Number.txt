@@ -1,0 +1,28 @@
+class Solution {
+public:
+    
+    
+    
+    vector<string> letterCombinations(string digits) {
+       vector <string> t{"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+      vector<string> ans;
+      if(digits.length()==0)
+      return {};
+      findans(t,ans,digits,"");
+       return ans;
+
+     }
+void findans(vector<string>& t,vector<string>& ans,string s,string path)
+{
+    if(s.length()==0)
+    {  ans.push_back(path);
+        return;
+    }
+    
+    string temp=t[s[0]-'2'];
+    for(int i=0;i<temp.length();i++)
+    {
+        findans(t,ans,s.substr(1,s.length()-1),path+temp[i]);
+    }
+}
+};
