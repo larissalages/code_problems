@@ -21,6 +21,7 @@ class Radix:
 				data.extend(bucket)
 		return data
 
+# TODO: Expand functionality to work with negative numbers
 
 # Ex:
 array = [50, 2, 13, 23, 11, 100]
