@@ -19,6 +19,12 @@ Code | Test
 [Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/f0353fac71e3b773dbfb12080c01b02baa35ac72/classical_algorithms/python/tests/test_radix.py)
 [Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/selection%20sort.py) | Missing tests
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Binary%20search.py) | Missing tests
+[Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Heap%20Sort.py) | Missing tests
+[Kadanes Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/kadanes_algorithm.py) | Missing tests
+[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Linear%20Search.py) | Missing tests
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | Missing tests
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/selection%20sort.py) | Missing tests
+[Sieve of Eratosthenes](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Sieve%20of%20Eratosthenes.py) | Missing tests
 
 ### Java
 Code | Test
@@ -29,11 +35,14 @@ Code | Test
 ### C++
 Code | Test
 ------------ | -------------
-[Selection Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | Missing tests
-[Insertion Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
-[Bubble Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | Missing tests
+[Insertion Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
-[Quick Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
+[Binary Tree](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/binary_tree.cpp) | Missing tests
+[Prims Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/prims_algo.cpp) | Missing tests
+
 
 # LeetCode
 ## Binary Search Trees
