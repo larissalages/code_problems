@@ -33,6 +33,7 @@ Code | Test
 [Insertion Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
 [Bubble Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
+[Quick Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
 
 # LeetCode
 ## Binary Search Trees
