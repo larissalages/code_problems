@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 void msort(int d[],int size){
 
  int i,j,k, result[size], mid=size/2;
@@ -6,7 +9,6 @@ void msort(int d[],int size){
  {
      return;
  }
-
 
  msort(d,mid);
 
@@ -35,7 +37,7 @@ int main()
     int i;
 
 	for( i = 0 ; i<7 ; i++)
-		printf("%d ", arr[i]);
-	printf("\n");
+		cout<<arr[i]<<endl;
+	
     return 0;
 }
