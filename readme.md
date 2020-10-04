@@ -17,23 +17,27 @@ Code | Test
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
 [Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | Missing tests
+[Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Heap%20Sort.py) | Missing tests
 [Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/selection%20sort.py) | Missing tests
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Binary%20search.py) | Missing tests
+[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Linear%20Search%20.py) | Missing tests
+[Kadanes_algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/kadanes_algorithm.py) | Missing tests
 
 ### Java
 Code | Test
 ------------ | -------------
-[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.java) | Missing tests
-[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java) | Missing tests
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.java) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.java)
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java)
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BubbleSort.java) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BubbleSort.java)
 
 ### C++
 Code | Test
 ------------ | -------------
-[Selection Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | Missing tests
-[Insertion Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
-[Bubble Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
-[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
-[Quick Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
+[Selection Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp)
+[Insertion Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/insertionsort.cpp)
+[Bubble Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bubblesort.cpp)
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp)
+[Quick Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | [Solution](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/quicksort.cpp)
 
 # LeetCode
 ## Binary Search Trees
@@ -63,5 +67,6 @@ Challenge | Solution
 [Non Primes Generator](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/non-primes_generator.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/non-primes-generator.py)
 [Stock Market prediction](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/stock_market_prediction.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/stock_market_prediction.py)
 [Square Accumulate Root](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/square_acc_root.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/square_accumulate_root.py)
-[Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_r=internal-search) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/sock_merchant.py)
-
+[Stock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_r=internal-search) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/sock_merchant.py)
+[Jumping On Clouds](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/jumping_on_clouds.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/python/jumping_On_Clouds.py)
+[Meetup Schedule](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/meetup_schedule.jpg) | [Solution](https://github.com/larissalages/code_problems/blob/master/hackerrank/python/meetup_schedule.py)
