@@ -29,6 +29,9 @@ Code | Test
 ### C++
 Code | Test
 ------------ | -------------
+[Selection Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | Missing tests
+[Insertion Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
+[Bubble Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
 
 # LeetCode
