@@ -16,7 +16,7 @@ Code | Test
 ------------ | -------------
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
-[Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | Missing tests
+[Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/f0353fac71e3b773dbfb12080c01b02baa35ac72/classical_algorithms/python/tests/test_radix.py)
 [Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/selection%20sort.py) | Missing tests
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Binary%20search.py) | Missing tests
 
