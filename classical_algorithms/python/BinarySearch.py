@@ -1,5 +1,3 @@
-import unittest
-
 class BinarySearch:
     def search(self, array, element):
         first = 0
