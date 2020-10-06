@@ -94,6 +94,14 @@ Challenge | Solution
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/linked_lists/add_two_numbers.py)
 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/linked_lists/merge_two_sorted_lists.py)
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/linked_lists/remove_nth_node_from_end_of_list.py)
+
+## Dynamic Programming
+Challenge | Solution
+------------ | -------------
+[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) | [Solution](https://github.com/ir2010/code_problems/blob/master/leetcode/cpp/dynamic%20programming/1594.cpp)
+[Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Solution](https://github.com/ir2010/code_problems/blob/master/leetcode/cpp/dynamic%20programming/174.cpp)
+[House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/ir2010/code_problems/blob/master/leetcode/cpp/dynamic%20programming/198.cpp)
+
 ## Others
 Challenge | Solution
 ------------ | -------------
