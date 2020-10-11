@@ -13,26 +13,39 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-        if(!l1 && !l2) return l1;
-        if(!l1 && l2) return l2;
-        if(!l2 && l1) return l1;
-        ListNode *mergedList,*head;
-        int x,y;
-        mergedList=new ListNode(0);
-        head=mergedList;
-        while(l1 || l2){
-            x=l1? l1->val: INT_MAX;
-            y=l2? l2->val: INT_MAX;
-            if(l1 && x<=y){
-                mergedList->next=new ListNode(x);
-                l1=l1->next;
+        if(l1==NULL || l2==NULL)
+            return l1==NULL?l2:l1;
+        ListNode* head=new ListNode(-1);
+        ListNode* prev=head;
+        
+        ListNode* curr1=l1;
+        ListNode* curr2=l2;
+        
+        while(curr1!=NULL && curr2!=NULL)
+        {
+            if(curr1->val<=curr2->val)
+            {
+                prev->next=curr1;
+                prev=curr1;
+                curr1=curr1->next;
             }
-            else if(l2){
-                mergedList->next=new ListNode(y);
-                l2=l2->next;
+            else
+            {
+                prev->next=curr2;
+                prev=curr2;
+                curr2=curr2->next;
             }
-            mergedList=mergedList->next;
         }
+        
+        if(curr1!=NULL)
+        {
+            prev->next=curr1;
+        }
+        if(curr2!=NULL)
+        {
+            prev->next=curr2;
+        }
+        
         return head->next;
     }
 };
