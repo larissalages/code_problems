@@ -14,15 +14,15 @@ Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.
 ### Python
 Code | Test
 ------------ | -------------
-[Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Heap%20Sort.py) | Missing tests
+[Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/heapsort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_heap_sort.py)
 [Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/kadanes_algorithm.py) | Missing tests
 [Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Linear%20Search%20.py) | Missing tests
 [Sieve of Eratoshenes](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Sieve%20of%20Eratosthenes.py) | Missing tests
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
 [Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/f0353fac71e3b773dbfb12080c01b02baa35ac72/classical_algorithms/python/tests/test_radix.py)
-[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/selection%20sort.py) | Missing tests
-[Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Binary%20search.py) | Missing tests
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/SelectionSort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_selection_sort.py)
+[Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/BinarySearch.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_binary_search.py)
 
 ### Java
 Code | Test
