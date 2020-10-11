@@ -10,26 +10,81 @@
  */
 class Solution {
 public:
-    ListNode* reverseKGroup(ListNode* head, int k) {
-        auto *initial=head;
-        ListNode *prevTail=NULL;
-        while(head){
-            ListNode *curr=NULL,*tail=NULL;
-            int count=k;
-            while(count){
-                if(!head) return initial;
-                auto *x=new ListNode(head->val);
-                x->next=curr;
-                curr=x;
-                head=head->next;
-                if(!tail) tail=curr;
-                count--;
-            }
-            if(!prevTail) initial=curr;
-            else prevTail->next=curr;
-            prevTail=tail;
-            tail->next=head;
+    ListNode* oh=nullptr;
+    ListNode* ot=nullptr;
+    
+    ListNode* th=nullptr;
+    ListNode* tt=nullptr;
+    
+    void addfirst(ListNode* node)
+    {
+        if(th==NULL)
+        {
+            th=node;
+            tt=node;
         }
-       return initial;
+        else
+        {
+            node->next=th;
+            th=node;
+        }
+    }
+    
+    int length(ListNode* head)
+    {
+        int l=0;
+        ListNode* temp=head;
+        while(temp!=NULL)
+        {
+            l++;
+            temp=temp->next;
+        }
+        
+        return l;
+    }
+    
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        if(head==NULL || head->next==NULL || k==0 || k==1 ) return head;
+        
+        int len=length(head);
+        if(len<k) return head;
+        
+        ListNode* curr=head;
+        while(curr!=NULL)
+        {
+            int tk=k;
+            
+            while(tk-->0)
+            {
+                ListNode* fwd=curr->next;
+                curr->next=NULL;
+                
+                addfirst(curr);
+                curr=fwd;
+            }
+            
+            len-=k;
+            
+            if(ot==nullptr)
+            {
+                oh=th;
+                ot=tt;
+            }
+            else
+            {
+                ot->next=th;
+                ot=tt;
+            }
+            tt=nullptr;
+            th=nullptr;
+            
+            if(len<k)
+            {
+                ot->next=curr;
+                curr=nullptr;
+            }
+        }
+        
+        return oh;
     }
 };
