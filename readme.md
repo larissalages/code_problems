@@ -16,7 +16,7 @@ Code | Test
 ------------ | -------------
 [Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/heapsort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_heap_sort.py)
 [Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/kadanes_algorithm.py) | Missing tests
-[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Linear%20Search%20.py) | Missing tests
+[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/LinearSearch.py) | Missing tests
 [Sieve of Eratoshenes](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Sieve%20of%20Eratosthenes.py) | Missing tests
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
@@ -106,11 +106,12 @@ Challenge | Solution
 Challenge | Solution
 ------------ | -------------
 
-# Hackerrank 
+# Hackerrank
+### Python 
 Challenge | Solution
 ------------ | -------------
-[Non Primes Generator](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/non-primes_generator.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/non-primes-generator.py)
-[Stock Market prediction](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/stock_market_prediction.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/stock_market_prediction.py)
-[Square Accumulate Root](https://github.com/larissalages/code_problems/blob/master/hackerrank/imgs-questions/square_acc_root.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/square_accumulate_root.py)
+[Non Primes Generator](https://github.com/larissalages/code_problems/blob/master/Hackerrank/imgs-questions/non-primes_generator.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/non-primes-generator.py)
+[Stock Market prediction](https://github.com/larissalages/code_problems/blob/master/Hackerrank/imgs-questions/stock_market_prediction.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/stock_market_prediction.py)
+[Square Accumulate Root](https://github.com/larissalages/code_problems/blob/master/Hackerrank/imgs-questions/square_acc_root.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/square_accumulate_root.py)
 [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_r=internal-search) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/sock_merchant.py)
 
