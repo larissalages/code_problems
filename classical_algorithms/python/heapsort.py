@@ -23,6 +23,14 @@ def heapify(arr, n, i):
 def heapSort(arr): 
 	n = len(arr) 
 
+	# empty list returns sorted empty list
+	if n == 0:
+		return []
+
+	# list of size one, returns same list
+	if n == 1:
+		return arr
+
 	# Build a maxheap. 
 	for i in range(n//2 - 1, -1, -1): 
 		heapify(arr, n, i) 
@@ -30,11 +38,15 @@ def heapSort(arr):
 	# One by one extract elements 
 	for i in range(n-1, 0, -1): 
 		arr[i], arr[0] = arr[0], arr[i] # swap 
-		heapify(arr, i, 0) 
+		heapify(arr, i, 0)
+	return arr
 
-print('Enter a list of numbers')
-arr = list(map(int,input().split()))
-heapSort(arr) 
-print('After performing heap sort')
-for i in arr:
-    print(i,end =' ')
+
+# not execute the code when imported
+if __name__ == "__main__":
+	print('Enter a list of numbers')
+	arr = list(map(int,input().split()))
+	heapSort(arr) 
+	print('After performing heap sort')
+	for i in arr:
+	    print(i,end =' ')
