@@ -1,0 +1,11 @@
+name: "Test Actions"
+description: "Run tests in repository"
+author: "larissalages7@gmail.com"
+  
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "check-circle"
+  color: "purple"
