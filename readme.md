@@ -42,6 +42,7 @@ Code | Test
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
 [Quick Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
 [0/1 Knapsack Problem](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/01_knapsack_problem.cpp) | Missing tests
+[Kadane's Algorithm](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Kadane_Algorithm.cpp) | Missing tests
 
 # Codeforces
 
