@@ -110,6 +110,11 @@ Challenge | Solution
 ------------ | -------------
 
 # Hackerrank
+### C++
+Challenge | Solution
+------------ | -------------
+[QHEAP1](https://www.hackerrank.com/challenges/qheap1/problem) | [Solution](https://github.com/ErR0rpj/code_problems/blob/master/Hackerrank/c%2B%2B/QHEAP1.cpp)
+
 ### Python 
 Challenge | Solution
 ------------ | -------------
