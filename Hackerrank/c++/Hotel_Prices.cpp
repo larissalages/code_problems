@@ -1,10 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-#include <iostream>
-#include <vector>
-
-using namespace std;
 class HotelRoom {
 public:
     HotelRoom(int bedrooms, int bathrooms) 
