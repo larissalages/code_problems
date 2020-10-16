@@ -85,6 +85,8 @@ Challenge | Solution
 ------------ | -------------
 [ Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/python/Binary%20Search%20Trees/balance_binary_search_tree.py)
 [BST to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/python/Binary%20Search%20Trees/bst_to_greater_sum_tree.py)
+[search insert position]( https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/search_insert_position.java)
+
 
 ## Graphs
 Challenge | Solution
