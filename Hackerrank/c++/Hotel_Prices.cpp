@@ -45,6 +45,5 @@ int main() {
         delete room;
     }
     rooms.clear();
-
     return 0;
 }
