@@ -36,7 +36,8 @@ Code | Test
 ------------ | -------------
 [Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BubbleSort.dart) | Missing tests
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/QuickSort.dart) | Missing tests
-Bin[Binary Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BinarySort.dart) | Missing tests
+[Binary Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BinarySort.dart) | Missing tests
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.dart) | Missing tests
 
 ### C++
 Code | Test
