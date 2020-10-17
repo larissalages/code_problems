@@ -1,20 +1,28 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> ans(n);
-        
-        ans[0] = 1;
-        for (int i = 1; i < n; i++) {
-            ans[i] = nums[i - 1] * ans[i - 1];
+      
+        int n = nums.size(), i, prodSoFar = 1;
+        vector<int> output(n, nums[n - 1]);
+      
+        //preprocessing the array
+        for (i = n - 2; i >= 0; i--){
+            output[i] = output[i + 1] * nums[i];
         }
-        
-        int right = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            ans[i] = ans[i] * right;
-            right *= nums[i];
+
+        for (i = 0; i < n - 1; i++){
+            output[i] = prodSoFar * output[i + 1];
+            prodSoFar *= nums[i];
         }
+        output[n - 1] = prodSoFar;
         
-        return ans;
+        return output;
     }
+    
 };
+
+
+//==============================================================
+//Time complexity of the above algorithm: O(n), n is the length of the input array
+
+//Space complexity: O(1), constant space
