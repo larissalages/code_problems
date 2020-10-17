@@ -79,6 +79,11 @@ Problem Statement | Solution
 [B](https://codeforces.com/contest/1341/problem/B) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/B.cpp)
 [C](https://codeforces.com/contest/1341/problem/C) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/C.cpp)
 
+### Round 638
+Problem Statement | Solution
+------------ | -------------
+[A](https://codeforces.com/contest/1348/problem/A) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/A.cpp)
+
 # LeetCode
 ## Binary Search Trees
 Challenge | Solution
