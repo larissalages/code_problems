@@ -1,8 +1,10 @@
 FROM ubuntu
 MAINTAINER Larissa Lages
 RUN apt-get update
-RUN apt-get install -y python
-RUN apt-get install -y python-unittest2
-ADD classical_algorithms/python/tests/ /home/classical_algorithms/python/tests
-CMD ["python -m unittest discover home/classical_algorithms/python/tests"]
+RUN apt-get install -y python3
+RUN apt-get install -y python3-unittest2
+COPY ./ ./
+RUN chmod +x actions/run_tests.sh
+CMD ./actions/run_tests.sh
+
 
