@@ -31,6 +31,11 @@ Code | Test
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java) | Missing tests
 [Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BubbleSort.java) | Missing tests
 
+### Dart
+Code | Test
+------------ | -------------
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BubbleSort.dart) | Missing tests
+
 ### C++
 Code | Test
 ------------ | -------------
