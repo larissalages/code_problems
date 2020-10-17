@@ -82,7 +82,7 @@ Problem Statement | Solution
 ### Round 638
 Problem Statement | Solution
 ------------ | -------------
-[A](https://codeforces.com/contest/1348/problem/A) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/A.cpp)
+[A](https://codeforces.com/contest/1348/problem/A) | [Solution](https://github.com/sanchitgupta456/code_problems/blob/master/Codeforces_Contests/Round_638_Div_2/A.cpp)
 
 # LeetCode
 ## Binary Search Trees
