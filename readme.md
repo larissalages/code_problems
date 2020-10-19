@@ -52,6 +52,8 @@ Code | Test
 [0/1 Knapsack Problem](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/01_knapsack_problem.cpp) | Missing tests
 [Kadane's Algorithm](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Kadane_Algorithm.cpp) | Missing tests
 [Topological Sort](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Topological_sort.cpp) | Missing Tests
+[Bucket Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bucketsort.cpp) | Missing tests
+[Bogo Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bogosort.cpp) | Missing tests
 
 # Codeforces
 
