@@ -35,6 +35,9 @@ Code | Test
 Code | Test
 ------------ | -------------
 [Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BubbleSort.dart) | Missing tests
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/QuickSort.dart) | Missing tests
+[Binary Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BinarySort.dart) | Missing tests
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.dart) | Missing tests
 
 ### C++
 Code | Test
@@ -50,7 +53,7 @@ Code | Test
 [Kadane's Algorithm](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Kadane_Algorithm.cpp) | Missing tests
 [Topological Sort](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Topological_sort.cpp) | Missing Tests
 [Cycle Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/cyclesort.cpp) | Missing tests
-
+[Bogo Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bogosort.cpp) | Missing tests
 
 # Codeforces
 
@@ -85,6 +88,11 @@ Problem Statement | Solution
 [A](https://codeforces.com/contest/1341/problem/A) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/A.cpp)
 [B](https://codeforces.com/contest/1341/problem/B) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/B.cpp)
 [C](https://codeforces.com/contest/1341/problem/C) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/C.cpp)
+
+### Round 638
+Problem Statement | Solution
+------------ | -------------
+[A](https://codeforces.com/contest/1348/problem/A) | [Solution](https://github.com/sanchitgupta456/code_problems/blob/master/Codeforces_Contests/Round_638_Div_2/A.cpp)
 
 # LeetCode
 ## Binary Search Trees
