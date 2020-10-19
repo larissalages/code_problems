@@ -48,6 +48,7 @@ Code | Test
 [Insertion Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
 [Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
+[Comb Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/combsort.cpp) | Missing Tests
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
 [0/1 Knapsack Problem](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/01_knapsack_problem.cpp) | Missing tests
 [Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Kadane_Algorithm.cpp) | Missing tests
