@@ -31,19 +31,30 @@ Code | Test
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java) | Missing tests
 [Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BubbleSort.java) | Missing tests
 
+### Dart
+Code | Test
+------------ | -------------
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BubbleSort.dart) | Missing tests
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/QuickSort.dart) | Missing tests
+[Binary Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/dart/BinarySort.dart) | Missing tests
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.dart) | Missing tests
+
 ### C++
 Code | Test
 ------------ | -------------
 [Binary Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/binary_tree.cpp) | Missing tests
 [Prims Algo](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/prims_algo.cpp) | Missing tests
-[Selection Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | Missing tests
-[Insertion Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
-[Bubble Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/selectionsort.cpp) | Missing tests
+[Insertion Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
-[Quick Sort](https://github.com/kartikeysingh6/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
-[0/1 Knapsack Problem](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/01_knapsack_problem.cpp) | Missing tests
-[Kadane's Algorithm](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Kadane_Algorithm.cpp) | Missing tests
-[Topological Sort](https://github.com/ErR0rpj/code_problems/blob/master/classical_algorithms/c%2B%2B/Topological_sort.cpp) | Missing Tests
+[Comb Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/combsort.cpp) | Missing Tests
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/quicksort.cpp) | Missing tests
+[0/1 Knapsack Problem](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/01_knapsack_problem.cpp) | Missing tests
+[Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Kadane_Algorithm.cpp) | Missing tests
+[Topological Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Topological_sort.cpp) | Missing Tests
+[Cycle Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/cyclesort.cpp) | Missing tests
+[Bogo Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bogosort.cpp) | Missing tests
 
 # Codeforces
 
@@ -79,6 +90,11 @@ Problem Statement | Solution
 [B](https://codeforces.com/contest/1341/problem/B) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/B.cpp)
 [C](https://codeforces.com/contest/1341/problem/C) | [Solution](https://github.com/larissalages/code_problems/blob/master/Codeforces_Contests/6_Round_637_Div_2/C.cpp)
 
+### Round 638
+Problem Statement | Solution
+------------ | -------------
+[A](https://codeforces.com/contest/1348/problem/A) | [Solution](https://github.com/sanchitgupta456/code_problems/blob/master/Codeforces_Contests/Round_638_Div_2/A.cpp)
+
 # LeetCode
 ## Binary Search Trees
 Challenge | Solution
@@ -103,15 +119,20 @@ Challenge | Solution
 ## Dynamic Programming
 Challenge | Solution
 ------------ | -------------
-[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) | [Solution](https://github.com/ir2010/code_problems/blob/master/leetcode/cpp/dynamic%20programming/1594.cpp)
-[Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Solution](https://github.com/ir2010/code_problems/blob/master/leetcode/cpp/dynamic%20programming/174.cpp)
-[House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/ir2010/code_problems/blob/master/leetcode/cpp/dynamic%20programming/198.cpp)
+[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/cpp/dynamic%20programming/1594.cpp)
+[Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/cpp/dynamic%20programming/174.cpp)
+[House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/cpp/dynamic%20programming/198.cpp)
 
 ## Others
 Challenge | Solution
 ------------ | -------------
 
 # Hackerrank
+### C++
+Challenge | Solution
+------------ | -------------
+[QHEAP1](https://www.hackerrank.com/challenges/qheap1/problem) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/c%2B%2B/QHEAP1.cpp)
+
 ### Python 
 Challenge | Solution
 ------------ | -------------
