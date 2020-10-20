@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     vector<vector<int>> merge(vector<vector<int>>& v) {
         vector<vector<int>>res;
         int n=v.size();
