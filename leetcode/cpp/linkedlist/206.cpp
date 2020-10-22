@@ -1,3 +1,11 @@
+//This Question can be solved both Iteratively as well as using Recursion
+//Here, We have both the solutions. We have commented the Iterative Solution for now. We recommend you to go through both the solutions. 
+//Once you complete the recursive solution comment it out and uncomment the iterative one and go through it!
+  
+  
+  
+  
+/****************************************************Recursive Solution*****************************************************/
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -22,3 +30,26 @@ public:
         return head;
     }
 };
+
+
+
+
+
+/***************************************************Iterative Solution*****************************************************/
+/*
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode *p=head,*q=NULL,*r=NULL; 
+        while(p!=NULL)
+        {
+            r=q;
+            q=p;
+            p=p->next;
+            q->next=r;
+        }
+        head=q;   
+        return head;
+    }
+};
+*/
