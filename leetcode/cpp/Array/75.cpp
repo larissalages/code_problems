@@ -1,3 +1,7 @@
+// Problem 75. Sort Colors
+// https://leetcode.com/problems/sort-colors/
+// time complexity : O(n) only one traversal needed
+// space complexity : O(1)
 class Solution {
 public:
     void swap(int *x,int *y){
