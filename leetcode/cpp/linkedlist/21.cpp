@@ -13,39 +13,59 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-        if(l1==NULL || l2==NULL)
-            return l1==NULL?l2:l1;
-        ListNode* head=new ListNode(-1);
-        ListNode* prev=head;
+        //If both the linked list are NULL than we simply return the NULL
+        if(l1 == NULL && l2 == NULL)
+            return NULL;
         
-        ListNode* curr1=l1;
-        ListNode* curr2=l2;
+        //If one of the linked list is NULL than we return the other linked list
+        if(l1 == NULL)
+            return l2;
+        if(l2 == NULL)
+            return l1;
         
-        while(curr1!=NULL && curr2!=NULL)
+        //We take mergedHead and mergedTail for our merged linked list of l1 and l2
+        ListNode *mergedHead = NULL, *mergedTail = NULL;
+        while(l1 != NULL && l2 != NULL)
         {
-            if(curr1->val<=curr2->val)
+            //If l1's val is less than l2's val than l1's node should go first into the merged list
+            if(l1->val < l2->val)
             {
-                prev->next=curr1;
-                prev=curr1;
-                curr1=curr1->next;
+                //We check if the merged list is still empty
+                if(mergedHead == NULL)
+                {
+                    mergedHead = l1;
+                    mergedTail = l1;
+                }
+                else
+                {
+                    mergedTail->next = l1;
+                    mergedTail = mergedTail->next;
+                }
+                l1 = l1->next;
             }
             else
             {
-                prev->next=curr2;
-                prev=curr2;
-                curr2=curr2->next;
+                if(mergedHead == NULL)
+                {
+                    mergedHead = l2;
+                    mergedTail = l2;
+                }
+                else
+                {
+                    mergedTail->next = l2;
+                    mergedTail = mergedTail->next;
+                }
+                l2 = l2->next;
             }
         }
         
-        if(curr1!=NULL)
-        {
-            prev->next=curr1;
-        }
-        if(curr2!=NULL)
-        {
-            prev->next=curr2;
-        }
+        //In case l1 and l2 are of different lengths than one of the list would get merged while the other would still have some nodes left. To merge the remaining nodes we have used the conditionals given below.
+        if(l1 == NULL)
+            mergedTail->next = l2;
+        if(l2 == NULL)
+            mergedTail->next = l1;
         
-        return head->next;
+        //We return the merged linked list head.
+        return mergedHead;
     }
 };
