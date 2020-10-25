@@ -1,0 +1,9 @@
+name: Run Unit Tests
+on: push
+jobs:
+  build:
+    name: Test Actions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./actions
