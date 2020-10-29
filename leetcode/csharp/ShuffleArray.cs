@@ -1,4 +1,5 @@
-﻿public class ShuffleArray
+﻿// Problem 670: https://leetcode.com/explore/interview/card/top-interview-questions-easy/98/design/670/
+public class ShuffleArray
 {
     int[] arrayOriginal;
     int[] arrayCopy;
