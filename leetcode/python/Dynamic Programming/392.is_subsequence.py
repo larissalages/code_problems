@@ -9,7 +9,14 @@ class Solution:
         else:
             return False
 
+    # Other way to do it
+    def isSubsequence2(self, s: str, t: str) -> bool:
+        t = iter(t)
+        return all(c in t for c in s)
+
+
+
 t = 'abcde'
 s = "bb"
 
-print(Solution().isSubsequence(s, t))
+print(Solution().isSubsequence2(s, t))
