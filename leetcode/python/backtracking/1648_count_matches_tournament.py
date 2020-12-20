@@ -16,5 +16,14 @@ class Solution(object):
 	"""
 		There are n teams, and each match makes one team be eliminated. So to eliminated n-1 teams you need n-1 matches.
 	"""
-	def numberOfMatches(self, n):
+	def numberOfMatches2(self, n):
 		return n-1
+
+# Solution 3: Just to not use recursion
+	def numberOfMatches3(self, n):
+		cnt = 0
+		while (n > 1):
+			cnt += n//2
+			n = n//2 + n % 2
+
+		return cnt
