@@ -71,15 +71,6 @@ if __name__ == '__main__':
     )
     unittest.main()
 
-    # # create a list
-    # l = LinkedList()
-    # #l.list_to_linkedlist(['a', 'b', 'c', 'b', 'd'])
-    # l.list_to_linkedlist([1, 2, 1, 2, 3])
-    # #l.list_to_linkedlist([2, 2, 2, 2, 2])
-    # #l.list_to_linkedlist([])
-    # l.print()
-    # remove_dups(l)
-    # l.print()
 
 
 
