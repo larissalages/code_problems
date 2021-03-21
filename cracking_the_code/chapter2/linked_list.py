@@ -48,7 +48,7 @@ class LinkedList:
 
     def list_to_linkedlist(self, lst):
         for item in lst:
-            item = str(item)
+            #item = str(item)
             self.add(item)
 
     def print(self):
