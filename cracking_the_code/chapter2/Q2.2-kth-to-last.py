@@ -37,15 +37,19 @@ class Test(unittest.TestCase):
     )
 
     def test_kth_to_last(self):
+        logging.info('Testing kth_to_last...')
         for lst, k, expected in self.test_cases:
             lst = LinkedList(lst)
             _, value = kth_to_last(lst.head, k)
+            logging.info('Result: {}, expected {}'.format(value, expected))
             assert value == expected
 
     def test_kth_to_last_it(self):
+        logging.info('Testing kth_to_last_it...')
         for lst, k, expected in self.test_cases:
             lst = LinkedList(lst)
             value = kth_to_last_it(lst.head, k)
+            logging.info('Result: {}, expected {}'.format(value, expected))
             assert value == expected
 
 
