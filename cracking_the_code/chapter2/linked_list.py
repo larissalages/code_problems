@@ -8,7 +8,7 @@ class Node:
 
 
 class LinkedList:
-    head = None
+    _head = None
 
     def __init__(self, lst=None):
         if isinstance(lst, list):
@@ -20,8 +20,8 @@ class LinkedList:
             return False
         if self.length() != other.length():
             return False
-        n = self.head
-        m = other.head
+        n = self._head
+        m = other._head
         while n:
             if n.value != m.value:
                 return False
@@ -30,7 +30,7 @@ class LinkedList:
         return True
 
     def length(self):
-        n = self.head
+        n = self._head
         count = 0
         while n:
             count += 1
@@ -38,10 +38,10 @@ class LinkedList:
 
     def add(self, v):
         new = Node(v)
-        if not self.head:
-            self.head = new
+        if not self._head:
+            self._head = new
             return
-        p = self.head
+        p = self._head
         while p.next:
             p = p.next
         p.next = new
@@ -51,7 +51,7 @@ class LinkedList:
             self.add(item)
 
     def print(self):
-        p = self.head
+        p = self._head
         str_lst = ''
         if not p:
             print('[]')
@@ -59,3 +59,6 @@ class LinkedList:
             str_lst += '{}->'.format(p.value)
             p = p.next
         print(str_lst)
+
+    def head(self):
+        return self._head
