@@ -3,6 +3,7 @@ Repository made with the aim to help people studing for coding interviews. All c
 Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.md](https://github.com/larissalages/code_problems/blob/master/CONTRIBUTING.md) for details on how to get started and submit pull requests to us.
 
 # Useful Links
+- [The 10 Most Popular Coding Challenge Websites - 2021](https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f/)
 - [Big O cheat sheet](https://www.bigocheatsheet.com/)
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/dashboard)
