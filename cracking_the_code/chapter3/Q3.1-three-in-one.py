@@ -1,5 +1,6 @@
 import logging
 
+
 class StackInfo:
     def __init__(self, start, capacity, array):
         self.start = start
@@ -40,12 +41,19 @@ class MultiStack:
             number_of_items += self.info[i].size
         return number_of_items == len(self.array)
 
+    def shift(self, stack_number):
+        return
+
+    def expand(self, stack_number):
+        self.shift(stack_number % len(self.info))
+
     def push(self, stack_number, value):
-        stack = self.info[stack_number]
+        array_stack_number = stack_number - 1
+        stack = self.info[array_stack_number]
         if self.all_stacks_are_full:
             logging.error('Array is full!! Cannot push anything else')
         if stack.is_full():
-            self.expand(stack_number)  # implement function
+            self.expand(array_stack_number)  # implement function
         stack.size += 1
         self.array[stack.last_element_index()] = value
 
