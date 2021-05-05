@@ -42,6 +42,7 @@ class MultiStack:
         return number_of_items == len(self.array)
 
     def shift(self, stack_number):
+        logging.info("Shifiting stack {}".format(str(stack_number+1)))
         return
 
     def expand(self, stack_number):
