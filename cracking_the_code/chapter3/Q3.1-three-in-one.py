@@ -7,7 +7,7 @@ class StackInfo:
         self.capacity = capacity
         self.end = capacity - 1
         self.array = array
-        self.last_index = self.start
+        self.last_index = start
 
     def is_withing_stack_capacity(self, index):
         if index < 0 or index >= len(self.array):
@@ -32,7 +32,7 @@ class MultiStack:
         self.array = [0]*(nstacks*stack_size)
         self.info = []  # list of StackInfo
         for i in range(nstacks):
-            self.info.append(StackInfo(i*stack_size, stack_size))
+            self.info.append(StackInfo(i*stack_size, stack_size, self.array))
 
     def all_stacks_are_full(self):
         number_of_items = 0
@@ -77,11 +77,12 @@ class MultiStack:
 
     def push(self, stack_number, value):
         stack = self.info[stack_number]
-        if self.all_stacks_are_full:
+        if self.all_stacks_are_full():
             logging.error('Array is full!! Cannot push anything else')
         if stack.is_full():
             self.expand(stack_number)  # implement function
-        stack.last_index += 1
+        if self.array[stack.last_index] != 0:
+            stack.last_index += 1
         self.adjust_last_index(stack_number)
         self.array[stack.last_index] = value
 
@@ -96,3 +97,32 @@ class MultiStack:
         self.adjust_last_index(stack_number)
         return value
 
+    def peek(self, stack_number):
+        stack = self.info[stack_number]
+        return self.array[stack.last_index]
+
+    def print_stack(self, stack_number):
+        stk = self.info[stack_number]
+        for i in range(stk.start, stk.last_index+1):
+            print(self.array[i])
+
+
+if __name__ == '__main__':
+    multi_stack = MultiStack(3, 5)
+    multi_stack.push(0, 1)
+    multi_stack.push(0, 2)
+    multi_stack.push(0, 3)
+    multi_stack.push(0, 4)
+    multi_stack.push(0, 5)
+    multi_stack.push(0, 6)
+    multi_stack.print_stack(0)
+    multi_stack.push(1, 10)
+    multi_stack.push(1, 11)
+    multi_stack.push(1, 12)
+    multi_stack.print_stack(1)
+    multi_stack.push(2, 20)
+    multi_stack.push(2, 21)
+    multi_stack.push(2, 22)
+    multi_stack.push(2, 23)
+    multi_stack.push(2, 24)
+    multi_stack.push(2, 25)
