@@ -1,4 +1,3 @@
-import logging
 from stack import Stack
 
 
@@ -37,6 +36,29 @@ class SetOfStacks:
             print('----------')
         print('Done printing stacks')
 
+    def popAt(self, index):
+        if index >= len(self.lst_stacks):
+            print('This stack does not exist!')
+            return
+        v = self.lst_stacks[index].pop()
+
+        # If is not last stack, move items to make all stacks but the last one full
+        for j in range(index, len(self.lst_stacks) - 1):
+            sleft = self.lst_stacks[j]
+            sright = self.lst_stacks[j+1]
+            tmp = Stack()
+
+            # remove the bottom of the stack on the right and put on the top of stack on the left
+            while not sright.isEmpty():
+                v = sright.pop()
+                tmp.push(v)
+            sleft.push(tmp.pop())
+            # put the items back on the stack on the right
+            while not tmp.isEmpty():
+                sright.push(tmp.pop())
+        self.last_stack_size -= 1
+        return v
+
 
 def main():
     # insert a bunch of items
@@ -57,10 +79,14 @@ def main():
     weird_stack.pop()
     weird_stack.print_stacks()
 
-    # insert more items 
+    # insert more items
     weird_stack.push('i')
     weird_stack.push('j')
     weird_stack.push('k')
+    weird_stack.print_stacks()
+
+    # remove item form first stack
+    weird_stack.popAt(0)
     weird_stack.print_stacks()
 
 
