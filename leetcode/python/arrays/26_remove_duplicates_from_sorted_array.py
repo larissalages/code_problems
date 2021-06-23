@@ -1,6 +1,6 @@
 class Solution:
     def removeDuplicates(self, nums) -> int:
-        if len(nums) > 0:
+        if len(nums) == 0:
             return 0
 
         i = 0
