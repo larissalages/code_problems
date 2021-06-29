@@ -2,6 +2,7 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.neighbors = {}
+        self.visited = False
 
     def add_neighbor(self, neighbor, weight=0):
         self.neighbors[neighbor] = weight
