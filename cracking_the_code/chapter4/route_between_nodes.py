@@ -11,9 +11,9 @@ def search_bfs(start, end):
     while q:
         node = q.popleft()
         node.visited = True
-        if node == end:
-            return True
         for ngb in node.neighbors:
+            if node == end:
+                return True
             if ngb.visited is False:
                 node.visited = True
                 q.append(ngb)
