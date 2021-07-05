@@ -7,7 +7,7 @@ class Node:
 
 class MinimalTree:
     def __init__(self, array):
-        self.createMinimalBST(array)
+        self.root = self.createMinimalBST(array)
 
     def createMinimalBST(self, array):
         if len(array) <= 0:
@@ -28,8 +28,7 @@ def print_tree(node):
 
 def main():
     tree = MinimalTree([5, 10, 15, 20, 30, 40])
-    print("done")
-    #print_tree(tree)
+    print_tree(tree.root)
 
 
 if __name__ == "__main__":
