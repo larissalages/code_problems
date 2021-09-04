@@ -1,8 +1,6 @@
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
 
+# First Solution
 def solution(A, K):
-    # write your code in Python 3.6
     if len(A) == 0:
     	return A
     for i in range(K):
@@ -12,3 +10,10 @@ def solution(A, K):
             A[j] = prev
             prev = curr
     return A
+
+# Second Solution
+def solution(A, K):
+    if len(A) == 0:
+    	return A
+    K = K % len(A)
+    return A[-K:] + A[:-K]
