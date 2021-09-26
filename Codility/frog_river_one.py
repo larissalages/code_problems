@@ -1,8 +1,11 @@
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
-
 def solution(X, A):
+	hash_t = {}
+	for i in range(1, X+1):
+		hash_t[i] = 1	
+
     for i in range(len(A)):
-        if A[i] == X:
-            return i
+    	if hash_t.get(A[i]):
+    		del hash_t[A[i]]
+    	if not hash_t:
+    		return i
     return -1
