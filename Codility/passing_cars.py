@@ -6,6 +6,6 @@ def solution(A):
 			num_z += 1
 		else:
 			pairs += num_z
-			if pairs == 1000000000:
+			if pairs > 1000000000:
 				return -1
 	return pairs
