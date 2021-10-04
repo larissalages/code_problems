@@ -1,16 +1,11 @@
 def solution(A):
-	m = []
-	n = []
-	count = 0
+	pairs = 0
+	num_z = 0
 	for i in range(len(A)):
 		if A[i] == 0:
-			m.append(i)
+			num_z += 1
 		else:
-			n.append(i)
-	for i in m:
-		for j in n:
-			if j > i:
-				count += 1
-				if count  > 1000000000:
-					return -1
-	return count
+			pairs += num_z
+			if pairs == 1000000000:
+				return -1
+	return pairs
