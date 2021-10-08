@@ -56,6 +56,7 @@ Code | Test
 [Topological Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Topological_sort.cpp) | Missing Tests
 [Cycle Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/cyclesort.cpp) | Missing tests
 [Bogo Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bogosort.cpp) | Missing tests
+[Chinese Remainder Theorem](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/chineseRemainderTheorem.cpp) | Missing tests
 
 # Codeforces
 
