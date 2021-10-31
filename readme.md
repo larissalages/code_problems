@@ -126,6 +126,8 @@ Challenge | Solution
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/python/linked_lists/add_two_numbers.py)
 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/python/linked_lists/merge_two_sorted_lists.py)
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/python/linked_lists/remove_nth_node_from_end_of_list.py)
+[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/python/linked_lists/Flatten_a_Multilevel_Doubly_Linked_List.py)
+
 
 ## Dynamic Programming
 Challenge | Solution
