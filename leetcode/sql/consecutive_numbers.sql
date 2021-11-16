@@ -15,4 +15,4 @@ SELECT DISTINCT num as ConsecutiveNums
 FROM Logs
 WHERE (Id+1, num) in (select * from Logs) and (Id+2, num) in (select * from Logs);
 
-# Not really two much time difference between the two queries
+# Not really too much time difference between the two queries
