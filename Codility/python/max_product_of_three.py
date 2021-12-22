@@ -1,16 +1,7 @@
-def find_max(A):
-    max_ = float('-inf')
-    for i in range(len(A)):
-        if A[i] > max_:
-            max_ = A[i]
-            idx = i
-    del A[idx]
-    return max_, A
-        
-
 def solution(A):
-    lst_max = []
-    for i in range(3):
-        value, A = find_max(A)
-        lst_max.append(value)
-    return lst_max[0]*lst_max[1]*lst_max[2]
+    A.sort()
+    scenario1 = A[0] * A[1] * A[-1]
+    scenario2 = A[-1] * A[-2] * A[-3]
+    
+    return scenario1 if (scenario1 > scenario2) else scenario2
+
