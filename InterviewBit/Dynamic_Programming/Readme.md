@@ -1,3 +1,4 @@
+Problem:- 
 Problem Description in other words:- within a collection, reduce the cost of merging two adjacent elements.
 
 Solution approach:-
