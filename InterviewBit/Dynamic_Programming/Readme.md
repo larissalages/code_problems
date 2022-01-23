@@ -1,4 +1,4 @@
-Problem:- 
+Problem:- https://www.interviewbit.com/problems/merge-elements/
 Problem Description in other words:- within a collection, reduce the cost of merging two adjacent elements.
 
 Solution approach:-
