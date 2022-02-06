@@ -1,19 +1,39 @@
-def solution(A, B):
-    
-    stk = deque()
+from collections import deque
+
+def solution(A, B): 
     n = 0
+    stk1 = deque()
+    stk2 = deque()
     # insert values in stack
     for i in range(len(A)-1, -1, -1):
-        stk.append(i)
-    if len(stk) > 0:
-        p = stk.pop()
-    while len(stk) > 0:
-        q = stk.pop()
-        if B[p] == 1 and B[q] == 0:
-            if A[q] > A[p]:
-                p = q
-        else:
-            n += 1
-            p = q
+        stk1.append(i)
 
-    return n+1
+    if len(stk1) > 0:
+        p = stk1.pop()
+    else:
+        return 0
+    if len(stk1) > 0:
+        q = stk1.pop()
+    else:
+        return 1
+
+    while True:
+        if not (B[p] == 1 and B[q]==0):
+            stk2.append(p)
+            p = q
+            if len(stk1) > 0:
+                q = stk1.pop()
+            else:
+                break
+        else:
+            if A[q] > A[p]:
+                if len(stk2) > 0:
+                    p = stk2.pop()
+                else:
+                    break
+            else:
+                if len(stk1) > 0:
+                    q = stk1.pop()
+                else:
+                    break
+    return len(stk2) + 1 
