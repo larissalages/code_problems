@@ -154,3 +154,9 @@ Challenge | Solution
 [Square Accumulate Root](https://github.com/larissalages/code_problems/blob/master/Hackerrank/imgs-questions/square_acc_root.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/square_accumulate_root.py)
 [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_r=internal-search) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/sock_merchant.py)
 
+
+# InterviewBit
+### C++
+Challenge | Solution
+------------ | -------------
+[Merge Elements](https://www.interviewbit.com/problems/merge-elements/) | [Solution](https://github.com/larissalages/code_problems/blob/master/InterviewBit/Dynamic_Programming/merge_elements.Cpp)
