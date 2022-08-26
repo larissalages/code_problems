@@ -9,6 +9,7 @@ Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.
 - [HackerRank](https://www.hackerrank.com/dashboard)
 - [Code Chef](https://www.codechef.com/)
 - [Data Structure and Algorithms Tutorial](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)
+- [Data Structures Tutorial](https://www.scaler.com/topics/data-structures/)
 
 
 # Classic Algorithms
