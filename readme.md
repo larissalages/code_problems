@@ -154,6 +154,8 @@ Challenge | Solution
 [Stock Market prediction](https://github.com/larissalages/code_problems/blob/master/Hackerrank/imgs-questions/stock_market_prediction.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/stock_market_prediction.py)
 [Square Accumulate Root](https://github.com/larissalages/code_problems/blob/master/Hackerrank/imgs-questions/square_acc_root.png) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/square_accumulate_root.py)
 [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem?h_r=internal-search) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/sock_merchant.py)
+[Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=false) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/Find%20the%20Runner-Up%20Score!.py)
+[Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/Mini-Max%20Sum.py)
 
 
 # InterviewBit
