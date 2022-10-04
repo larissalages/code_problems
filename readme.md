@@ -166,4 +166,4 @@ Challenge | Solution
 ### Python
 Challenge | Solution
 ------------ | ------------
-[Reverse a Number](https://www.codechef.com/problems/FLOW007) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/Reverse%20a%20Number.py)
+[Reverse a Number](https://www.codechef.com/problems/FLOW007) | [Solution](https://github.com/larissalages/code_problems/blob/master/CodeChef_problems/Reverse%20a%20Number.py)
