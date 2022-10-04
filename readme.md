@@ -161,3 +161,9 @@ Challenge | Solution
 Challenge | Solution
 ------------ | -------------
 [Merge Elements](https://www.interviewbit.com/problems/merge-elements/) | [Solution](https://github.com/larissalages/code_problems/blob/master/InterviewBit/Dynamic_Programming/merge_elements.Cpp)
+
+# CodeChef
+### Python
+Challenge | Solution
+------------ | ------------
+[Reverse a Number](https://www.codechef.com/problems/FLOW007) | [Solution](https://github.com/larissalages/code_problems/blob/master/Hackerrank/python/Reverse%20a%20Number.py)
