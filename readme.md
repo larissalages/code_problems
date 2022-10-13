@@ -61,6 +61,12 @@ Code | Test
 [Bogo Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bogosort.cpp) | Missing tests
 [Chinese Remainder Theorem](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/chineseRemainderTheorem.cpp) | Missing tests
 
+### C
+Code | Test
+------------ | -------------
+[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Linear_Search.c) | Missing tests
+[Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Binary_Search.c) | Missing tests
+
 # Codeforces
 
 ### Round 633
