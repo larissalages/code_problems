@@ -1,4 +1,4 @@
-Repository made with the aim to help developers improve their code skills and also studying for coding interviews. Anyone can add new problems, algorithms and data structures in any language :smile:
+>> Repository made with the aim to help developers improve their code skills and also studying for coding interviews. Anyone can add new problems, algorithms and data structures in any language :smile:
 
 Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.md](https://github.com/larissalages/code_problems/blob/master/CONTRIBUTING.md) for details on how to get started and submit pull requests to us.
 
