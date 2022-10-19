@@ -4,9 +4,9 @@ name: Deploy to AWS ECR
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [test/github-ecr-action]
+    branches: [master]
   pull_request:
-    branches: [test/github-ecr-action]
+    branches: [master]
 jobs:
 build:
 name: Build Image
