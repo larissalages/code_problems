@@ -66,6 +66,7 @@ Code | Test
 ------------ | -------------
 [Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Linear_Search.c) | Missing tests
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Binary_Search.c) | Missing tests
+[Depth First Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/C/dfs.c) | Missing tests
 
 # Codeforces
 
