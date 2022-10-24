@@ -50,6 +50,7 @@ Code | Test
 [Insertion Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/insertionsort.cpp) | Missing tests
 [Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/Linear_Search.cpp) | Missing tests
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/Binary_Search.cpp) | Missing tests
+[Depth First Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/dfs.cpp) | Missing tests
 [Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c++/bubblesort.cpp) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/mergesort.cpp) | Missing tests
 [Comb Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/combsort.cpp) | Missing Tests
@@ -64,8 +65,11 @@ Code | Test
 ### C
 Code | Test
 ------------ | -------------
+
 [Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Linear_Search.c) | Missing tests
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Binary_Search.c) | Missing tests
+[Depth First Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/C/dfs.c) | Missing tests
+
 
 # Codeforces
 
