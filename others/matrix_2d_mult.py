@@ -32,7 +32,6 @@ def multp_matrices(matrix1, matrix2):
             for k in range(n_cols1):
                 mult[i][j] += matrix1[i][k]*matrix2[k][j]
     
-    print(mult)
     return mult
                 
     
@@ -57,3 +56,27 @@ try:
     print(C)
 except Exception as e:
     print(e)
+
+######################################################################
+# Q. c.
+
+def transpose_matrix(matrix):
+    n_rows = len(matrix)
+    n_cols = len(matrix[0])
+    
+    new_matrix = [[0 for _ in range(n_cols)] for _ in range(n_rows)]
+    
+    for i in range(n_rows):
+        for j in range(n_cols):
+            new_matrix[j][i] = matrix[i][j]
+    return new_matrix
+
+T = transpose_matrix(B)
+D = multp_matrices(B, T)
+print(D)
+
+# Or using numpy
+b = np.matrix(B)
+b = b.transpose()
+D = np.matmul(B,b)
+print(D)
