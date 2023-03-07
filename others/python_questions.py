@@ -58,4 +58,42 @@ for i in x:
 print(y)
 
 y = [j for i in x for j in i]
-print(y)     
+print(y)    
+
+############################################################################################################
+"""
+2. [5 mins] What does the following function do?
+
+#!python
+def read_samples(samplefile, filter):
+    samples = []
+    f = open(samplefile, "r")
+    for line in f.readlines():
+        if line.startswith(filter):
+            samples.append(line[len(filter):].strip())
+    return samples
+
+If it were called in the following context, what might you do to improve it?
+
+#!python
+for sample in read_samples("hugefile.txt", "sample:"):
+    process_sample(sample) # processes a sample from the file
+"""
+
+"""
+2.
+One way to improve this function would be to use a context manager to automatically close the file after reading. 
+This would ensure that the file is always closed, even if an exception is raised during the processing of the samples. 
+Here's an updated version of the function that uses a with statement:
+"""
+def read_samples(samplefile, filter):
+    samples = []
+    with open(samplefile, "r") as f:
+        for line in f:
+            if line.startswith(filter):
+                samples.append(line[len(filter):].strip())
+    return samples
+"""
+This updated version of the function is functionally equivalent to the original but uses a context manager to open and close the file automatically.
+"""
+
