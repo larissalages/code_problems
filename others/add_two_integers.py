@@ -64,9 +64,3 @@ print("Sum:", end='')
 r = sum_lists(first, second)
 print_number(r)
 print()
-
-
-
-
-
-
