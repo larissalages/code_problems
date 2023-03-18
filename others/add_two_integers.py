@@ -44,7 +44,8 @@ def print_number(l):
 		stack.append(l.value)
 		l = l.next
 	while len(stack) > 0:
-		print("{}".format(stack.pop()), end = '')
+		v = stack.pop()
+		print("{}".format(v), end = '')
 
 def create_linked_list(list_numbers):
 	l = None
@@ -59,9 +60,10 @@ def create_linked_list(list_numbers):
 
 first = create_linked_list([1, 2, 3]) #321
 second = create_linked_list([1, 2]) #21
-print("Sum:")
+print("Sum:", end='')
 r = sum_lists(first, second)
-print(print_number(r))
+print_number(r)
+print()
 
 
 
