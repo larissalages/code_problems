@@ -62,7 +62,7 @@ Code | Test
 [Bogo Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/bogosort.cpp) | Missing tests
 [Chinese Remainder Theorem](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/chineseRemainderTheorem.cpp) | Missing tests
 
-### C: Classical Algorithms
+### C
 
 | Algorithm           | Code (GitHub Link)                                         | Test Status                                       |
 |--------------------|--------------------------------------------------------------|-------------------------------------------------|
