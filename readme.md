@@ -63,12 +63,13 @@ Code | Test
 [Chinese Remainder Theorem](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/chineseRemainderTheorem.cpp) | Missing tests
 
 ### C
-Code | Test
------------- | -------------
 
-[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Linear_Search.c) | Missing tests
-[Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Binary_Search.c) | Missing tests
-[Depth First Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/C/dfs.c) | Missing tests
+| Algorithm           | Code (GitHub Link)                                         | Test Status                                       |
+|--------------------|--------------------------------------------------------------|-------------------------------------------------|
+| Linear Search       | [Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/c%2B%2B/Linear_Search.c) | **Missing Tests**                                  |
+| Binary Search       | [Binary Search](https://github.com/larissalages/code_various/Binary_Search.c)  **(Corrected Path)** | **Missing Tests**                                  |
+| Depth First Search | [Depth First Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/C/dfs.c) | **Missing Tests**                                  |
+
 
 
 # Codeforces
