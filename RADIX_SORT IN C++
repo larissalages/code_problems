@@ -1,0 +1,82 @@
+//IMPLEMENTING RADIX SORT IN C++
+//INCLUDING HEADER FILES
+#include<bits/stdc++.h>
+#include<iostream.h>
+#include<conio.h>
+
+using namespace std;
+
+//Getmax FUNCTION CODE TO GET
+//THE MAXIMUM NUMBER FROM THE ARRAY
+int Getmax(int *array,int n)
+{
+ int max=array[0];
+   for(int z=1;z<n;z++)
+    {
+      if(array[z]>max)
+      max=array[z];
+    }
+  return max;
+}
+//count_sort FUNCTION TO PERFORM THE COUNT SORT
+void count_sort(int *arr,int n,int exp)
+{
+    int output[n];
+    int i;
+    int count[10]
+    //initializing count array with 0.
+    for(i=0;i<10;i++)
+    {
+       count[i]=0;
+    }
+    for(i=0;i<n;i++)
+    {  //initializing the count array with
+       //how many digits are there.
+      count[arr[i]/exp%10]++;
+    }
+    for(i=1;i<10;i++)
+    {
+     //updating the count array to store
+     //the position of the numbers.
+     count[i]+=count[i-1];
+    }
+    for(i=(n-1);i>=0;i--)
+    {
+     //assigning the output array with the
+     //sorted array.
+     output[count[(arr[i]/exp)%10]-1]=arr[i];
+     count[(arr[i]/exp)%10]--;
+    }
+    for(i=0;i<n;i++)
+    {
+     //making the original array sorted
+     //by transferring the values in output to original.
+     arr[i]=output[i];
+    }
+ }
+ //radix_sort FUNCTION HERE TO PERFORM THE RADIX SORT
+  void radix_sort(int *arr,int n)
+  {
+   //for getting the maximum value in the array.
+   int maximum = Getmax(arr,n);
+    for(int exp=1;maximum/exp>0;exp=exp*10)
+     {
+     //repeated count sort till the maximum
+     //place value is reached.
+      count_sort(arr,n,exp);
+     }
+  }
+//main FUNCTION HERE
+void main()
+{
+clrscr();
+//here the integer array is limited that will become
+//infinite later
+  int arr[5]={189,75,23,198,8};
+  radix_sort(arr,5);
+  for(int j=0;j<5;j++)
+   {
+    cout<<arr[j]<<" ";
+   }
+getch();
+}
