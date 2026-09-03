@@ -16,22 +16,34 @@ Contributions are welcome! If you want to contribute, please read [CONTRIBUTING.
 ### Python
 Code | Test
 ------------ | -------------
-[Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/heapsort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_heap_sort.py)
-[Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/kadanes_algorithm.py) | Missing tests
-[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/LinearSearch.py) | Missing tests
-[Sieve of Eratoshenes](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Sieve%20of%20Eratosthenes.py) | Missing tests
-[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
-[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
-[Radix](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/f0353fac71e3b773dbfb12080c01b02baa35ac72/classical_algorithms/python/tests/test_radix.py)
-[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/SelectionSort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_selection_sort.py)
 [Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/BinarySearch.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_binary_search.py)
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Bubble%20Sort.py) | Missing tests
+[Heap Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/heapsort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_heap_sort.py)
+[Insertion Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Insertion%20Sort.py) | Missing tests
+[Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/kadanes_algorithm.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_kadanes_algorithm.py)
+[Linear Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/LinearSearch.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_linear_search.py)
+[Matrix Chain Multiplication](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/MatrixChainMultiplication.py) | Missing tests
+[Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/mergesort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_merge_sort.py)
+[Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/quicksort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_quick_sort.py)
+[Radix Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/radix.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_radix.py)
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/SelectionSort.py) | [Unit Test](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/tests/test_selection_sort.py)
+[Sieve of Eratosthenes](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/python/Sieve%20of%20Eratosthenes.py) | Missing tests
 
 ### Java
 Code | Test
 ------------ | -------------
+[AVL Tree](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/AVL_Tree.java) | Missing tests
+[Binary Search](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BinarySearch.java) | Missing tests
+[Breadth First Traversal](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BreadthFirstTraversal.java) | Missing tests
+[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BubbleSort.java) | Missing tests
+[Depth First Traversal](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/DepthFirstTraversal.java) | Missing tests
+[Egg Drop](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/Egg_Drop.java) | Missing tests
+[Insertion Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/InsertionSort.java) | Missing tests
+[Kadane's Algorithm](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/Kadanes_Algo.java) | Missing tests
+[Longest Common Subsequence](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/LongestCommonSubsequence.java) | Missing tests
 [Merge Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/MergeSort.java) | Missing tests
 [Quick Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/QuickSort.java) | Missing tests
-[Bubble Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/BubbleSort.java) | Missing tests
+[Selection Sort](https://github.com/larissalages/code_problems/blob/master/classical_algorithms/java/SelectionSort.java) | Missing tests
 
 ### Dart
 Code | Test
@@ -149,9 +161,34 @@ Challenge | Solution
 [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/cpp/dynamic%20programming/174.cpp)
 [House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/cpp/dynamic%20programming/198.cpp)
 
-## Others
+## Arrays & Searching
 Challenge | Solution
 ------------ | -------------
+[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/CircularArrayLoop.java)
+[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/CombinationSum.java)
+[Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/ContainerWithMostWater.java)
+[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/Finding_Duplicate_Number.java)
+[Permutations](https://leetcode.com/problems/permutations/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/Permutations.java)
+[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/Java/Product_of_Array_Except_Self.java)
+[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/csharp/ShuffleArray.cs)
+
+## SQL
+Challenge | Solution
+------------ | -------------
+[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/actors-and-directors-who-cooperated-at-least-three-times.sql)
+[Article Views I](https://leetcode.com/problems/article-views-i/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/article-views-1.sql)
+[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/combine-two-tables.sql)
+[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/consecutive_numbers.sql)
+[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/department-highest-salary.sql)
+[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/employees-earning-more-than-their-managers.sql)
+[Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/FindCustomerRefree.sql)
+[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/nth-highest-salary.sql)
+[Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/patients-with-a-condition.sql)
+[Rank Scores](https://leetcode.com/problems/rank-scores/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/rank-scores.sql)
+[Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/sales-analysis-iii.sql)
+[Sales Person](https://leetcode.com/problems/sales-person/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/sales-person.sql)
+[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/second-highest-salary.sql)
+[Top Travellers](https://leetcode.com/problems/top-travellers/) | [Solution](https://github.com/larissalages/code_problems/blob/master/leetcode/sql/top-travellers.sql)
 
 # Hackerrank
 ### C++
